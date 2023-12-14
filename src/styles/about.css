@@ -26,5 +26,7 @@
   
   .about__description {
     width: 52%;
+    color: var(--gray-5);
+
   }
   

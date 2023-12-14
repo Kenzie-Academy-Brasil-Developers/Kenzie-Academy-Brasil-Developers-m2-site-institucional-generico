@@ -1,4 +1,4 @@
-.comments{
+.comments {
   padding: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
 }
 
@@ -25,8 +25,13 @@
   height: 30rem;
 }
 
+.comments__right-description{
+  color: var(--gray-7);
+
+}
+
 .comments__right {
-    width:clamp(20rem, 9.286rem + 28.571vw, 35rem);
+  width: clamp(20rem, 9.286rem + 28.571vw, 35rem);
 }
 
 .comments__right-title {
@@ -59,6 +64,10 @@
   font-size: var(--title3-font-weight);
   font-weight: var(--title3-font-weight);
   line-height: var(--title3-line-height);
+}
+
+.comments__left-text{
+  color: var(--gray-5);
 }
 
 .comments__left-text {

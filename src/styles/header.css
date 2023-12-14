@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
+  padding-block: 20px;
 }
 
 .header__button--tranparent {
