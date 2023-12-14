@@ -1,0 +1,168 @@
+@media (max-width: 1024px) {
+  .banner__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .comments__right {
+    width: 25rem;
+  }
+
+  #modal {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+
+  .banner {
+    width: 100vw;
+    height: 92vh;
+  }
+
+  .banner__content {
+    width: 80%;
+  }
+
+  .banner__title {
+    font-size: clamp(2rem, 0.571rem + 3.81vw, 4rem);
+  }
+
+  .about--backgroud {
+    height: 20rem;
+    text-align: center;
+  }
+
+  .about__description {
+    width: 100%;
+  }
+
+  .about__content {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .title2 {
+    width: 80%;
+  }
+
+  .faq {
+    padding: 0;
+  }
+
+  .faq__content {
+    flex-direction: column;
+  }
+
+  .faq__left {
+    width: 100vw;
+  }
+
+  .faq__left-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem 3rem 1rem;
+  }
+
+  .faq__left-button {
+    text-align: center;
+    width: 100%;
+  }
+  .faq__left {
+    position: static;
+  }
+
+  .faq__right {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .comments {
+    padding: 0;
+  }
+
+  .comments__content {
+    flex-direction: column;
+  }
+
+  .comments__right {
+    width: 100vw;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .comments__right-content {
+    height: 50vh;
+  }
+
+  .comments__right-title {
+    width: 100%;
+  }
+
+  .comments__left {
+    padding: 1rem;
+    width: 100vw;
+  }
+
+  .rodape {
+    width: 100%;
+  }
+
+  #modal {
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__button--tranparent {
+    display: none;
+  }
+
+  .title2 {
+    width: 100%;
+    font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
+  }
+
+  .title3 {
+    font-size: clamp(1.5rem, 0.786rem + 1.905vw, 2.5rem);
+  }
+
+  .faq__left-content {
+    padding: 0;
+  }
+
+  .faq__content {
+    gap: 2rem;
+  }
+
+  .description {
+    font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+  }
+
+  .about__content {
+    gap: 1rem;
+  }
+  .comments__left {
+    gap: 3rem;
+  }
+  #modal {
+    width: 95%;
+  }
+}
+
+@media (max-width: 550px) {
+  .header__button--tranparent {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .faq__left {
+    padding: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+  }
+}
